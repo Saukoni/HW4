@@ -37,5 +37,5 @@ let book = {
 }
 book.addContact('Anton', 'asdsakj@gmail.com', '12312312321')
 
-console.log(book);
+console.log
 console.log(book.findByName('Patricia Lebsack'));
