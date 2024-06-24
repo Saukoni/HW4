@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="#" method="post">
+        <input type="text" name="name" placeholder="Name" required>
+        <textarea name="message" placeholder="Message" minlength="5" title="Минимум 5 символов"></textarea>
+        <input type="text" name="phone" placeholder="Phone number" pattern="\+380\d{9}" title="Телефон должен начинаться с +380">
+        <input type="text" name="email" placeholder="Email" pattern=".*@.*\..*" title="email должен иметь @ и .">
+        <input type="submit" value="Send message">
+    </form>
+    <style>
+        input {
+            border: 1px solid black;
+            display: block;
+            margin-bottom: 10px;
+        }
+        textarea {
+            border: 1px solid black;
+            display: block;
+            margin-bottom: 10px;
+        }
+    </style>
+    <script src="script.js"></script>
+</body>
+</html>
